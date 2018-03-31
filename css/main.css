@@ -104,6 +104,7 @@ a {
 body {
     background-color: #E80E57;
     font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
 }
 
 nav {
@@ -175,6 +176,31 @@ hr {
     box-shadow: 0 1px 2px  rgba(0,0,0,0.12) inset, 0 1px 2px  rgba(0,0,0,0.24) inset;
 }
 
+#subscribe {
+    background-color: white;
+}
+
+#mc_embed_signup .mc-field-group {
+    width: auto;
+}
+
+#mc_embed_signup .mc-field-group input {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#mc_embed_signup .button {
+    width: 50%;
+    background-color: #E4275A;
+    color: white;
+    border-radius: 4px;
+    display: block !important;
+}
+
+#mc_embed_signup .button:hover {
+    background-color: #C33869;
+    color: #F5F5F5;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -184,8 +210,8 @@ hr {
 */
 
 .center {
-    margin: 0 auto;
-    text-align: center;
+    margin: 0 auto !important;
+    text-align: center !important;
     display: block;
 }
 
