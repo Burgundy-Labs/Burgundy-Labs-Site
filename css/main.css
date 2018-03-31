@@ -184,12 +184,12 @@ hr {
 }
 
 #mc_embed_signup .mc-field-group input {
-    width: 70vw;
+    width: 50vw;
     margin: 0 auto;
 }
 
 #mc_embed_signup .button {
-    width: 70vw;
+    width: 50vw;
     background-color: #E4275A;
     color: white;
     border-radius: 4px;
