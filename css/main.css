@@ -176,14 +176,14 @@ hr {
 }
 
 .burgundy-button {
-    background-color: #E4275A;
+    background-color: #E4275A !important;
     color: white;
     border-radius: 4px;
 }
 
 .burgundy-button:hover {
-    background-color: #C33869;
-    color: #F5F5F5;
+    background-color: #C33869 !important;
+    color: #F5F5F5 !important;
 }
 
 #mce-EMAIL {
@@ -199,9 +199,9 @@ hr {
 */
 
 .center {
-    margin: 0 auto;
-    text-align: center;
-    display: block;
+    margin: 0 auto !important;
+    text-align: center !important;
+    display: block !important;
 }
 
 /*
