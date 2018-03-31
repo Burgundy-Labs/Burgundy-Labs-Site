@@ -179,16 +179,8 @@ hr {
     background-color: white;
 }
 
-.burgundy-button {
-    background-color: #E4275A !important;
-    color: white;
-    border-radius: 4px;
-    display: block !important;
-}
-
-.burgundy-button:hover {
-    background-color: #C33869 !important;
-    color: #F5F5F5 !important;
+#mc_embed_signup .mc-field-group {
+    width: auto;
 }
 
 #mc_embed_signup .mc-field-group input {
@@ -198,8 +190,16 @@ hr {
 
 #mc_embed_signup .button {
     width: 500px;
+    background-color: #E4275A;
+    color: white;
+    border-radius: 4px;
+    display: block !important;
 }
 
+#mc_embed_signup .button:hover {
+    background-color: #C33869;
+    color: #F5F5F5;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
