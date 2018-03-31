@@ -104,6 +104,7 @@ a {
 body {
     background-color: #E80E57;
     font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
 }
 
 nav {
@@ -184,12 +185,12 @@ hr {
 }
 
 #mc_embed_signup .mc-field-group input {
-    width: 50vw;
+    width: 50%;
     margin: 0 auto;
 }
 
 #mc_embed_signup .button {
-    width: 50vw;
+    width: 50%;
     background-color: #E4275A;
     color: white;
     border-radius: 4px;
