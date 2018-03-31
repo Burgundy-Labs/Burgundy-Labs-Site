@@ -183,6 +183,7 @@ hr {
     background-color: #E4275A !important;
     color: white;
     border-radius: 4px;
+    display: block;
 }
 
 .burgundy-button:hover {
@@ -190,8 +191,9 @@ hr {
     color: #F5F5F5 !important;
 }
 
-#mce-EMAIL {
+#mc_embed_signup .mc-field-group input {
     width: 250px;
+    margin: 0 auto;
 }
 
 /* ==========================================================================
