@@ -149,8 +149,9 @@ nav.level:not(:last-child) {
     font-size: 22px;
 }
 
-.timeslot_bg {
+.timeslot_button {
     background-color: #00AAC0;
+    color: white;
 }
 
 hr {
