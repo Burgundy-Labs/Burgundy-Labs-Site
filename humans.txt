@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Co-Founder: Caden Sumner
+    Co-Founder: Trevor Murphy
+    Co-Founder: Charlie Kolacki
+
+# THANKS
+
+    Caffeine
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Bulma, Netlfiy
