@@ -25,9 +25,9 @@
 			showMailingPopUp();
 		});
 			function showMailingPopUp() {
-			require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"…","uuid":"….","lid":"…."}) })
-			document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-			};
+
+			window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"burgundylabs.com","uuid":"YOUR_UUID","lid":"6f3baa66fd","uniqueMethods":true}) })
+
 			document.getElementById("newsletter").onclick = function() {showMailingPopUp()};
 			</script>
 </head>
