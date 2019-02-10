@@ -219,6 +219,21 @@ hr {
     background-color: #465A93;
     color: white;
 }
+
+.timeslot .hero {
+    background: #485A92 !important;
+    color: white;
+}
+
+.timeslot .navbar-brand {
+    background: white;
+    border-radius: 50px;
+}
+
+.timeslot .hero.is-info a.navbar-item:hover, .hero.is-info a.navbar-item.is-active, .hero.is-info .navbar-link:hover, .hero.is-info .navbar-link.is-active{
+    background: white;
+    border-radius: 50px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
