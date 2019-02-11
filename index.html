@@ -20,8 +20,17 @@
 
 		gtag('config', 'UA-109706737-2');
 	</script>
-	<script id="mcjs">!function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/5ba2eef36c6f729365c04383d/2812c586d0974b1bb03ff82ac.js");</script>
-
+<!-- MailerLite Universal -->
+<script>
+		(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+		var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+		f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+		var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+		_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+		
+		var ml_account = ml('accounts', '1404952', 'f9t4u2o2j7', 'load');
+		</script>
+		<!-- End MailerLite Universal -->
 </head>
 
 <body class="is-boxed has-animations">
@@ -64,7 +73,7 @@
 								services.</p>
 							<div class="hero-form field field-grouped">
 								<div class="control">
-									<a class="button button-primary button-block" id="newsletter" href="#">Stay up to date</a>
+									<button class="button button-primary button-block" id="newsletter" onClick="ml_account('webforms', '1209846', 'n8p5b9', 'show')">Stay up to date</button>
 									<a style="font-size:12px;color:black;margin:0 auto;display:block;" class="text-center" href="mailto:contact@burgundylabs.com">contact@burgundylabs.com</a>
 								</div>
 							</div>
@@ -374,7 +383,7 @@
 							<p class="section-paragraph">Subscribe to our newsletter to receive updates on new product launches & services.</p>
 						</div>
 						<div class="footer-form newsletter-form field field-grouped">
-							<a class="button button-primary button-block" style="margin: 0 auto" id="newsletter">Stay up to date</a>
+							<button onClick="ml_account('webforms', '1209846', 'n8p5b9', 'show')" class="button button-primary button-block" style="margin: 0 auto" id="newsletter">Stay up to date</button>
 						</div>
 					</div>
 				</div>
