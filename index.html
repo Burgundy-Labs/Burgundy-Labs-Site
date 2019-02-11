@@ -423,11 +423,12 @@
 	<script src="dist/js/main.min.js"></script>
 	<script>
 		function showMailingPopUp() {
-			window.dojo.require(["mojo/signup-forms/Loader"], function (L) {
+			require(["mojo/signup-forms/Loader"], function (L) {
 				L.start({
-					"baseUrl": "mc.us12.list-manage.com", "uuid": "5ba2eef36c6f729365c04383d",
+					"baseUrl": "mc.us12.list-manage.com", 
+					"uuid": "5ba2eef36c6f729365c04383d",
 					"lid": "6f3baa66fd"
-				})
+				});
 			});
 		}
 		document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
